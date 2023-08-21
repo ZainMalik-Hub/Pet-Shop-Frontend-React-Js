@@ -1,0 +1,66 @@
+.app22 {
+  .adoptH1 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .Nothing {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+.appointmentListAdmin {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    .pet-info {
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+
+      button {
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+          transform: translateY(-2px);
+        }
+      }
+
+      .accept {
+        background-color: #4caf50;
+        color: white;
+      }
+
+      .delete {
+        background-color: #f44336;
+        color: white;
+      }
+    }
+  }
+}

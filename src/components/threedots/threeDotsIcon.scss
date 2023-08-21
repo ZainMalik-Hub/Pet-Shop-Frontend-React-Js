@@ -1,0 +1,58 @@
+/* Three vertical dots icon styles */
+.three-dots {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 4px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.dot {
+  width: 14px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  position: absolute;
+  top: 28px;
+  right: 0;
+  margin-right: -20px;
+  width: 190px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  z-index: 9999;
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  font-size: 14px;
+  color: #333;
+  padding: 10px 20px;
+  margin-left: -20px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Show dropdown menu when hovered over */
+.three-dots:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+}

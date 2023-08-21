@@ -1,0 +1,38 @@
+.pet-appointment-card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin-top: 20px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input,
+    select {
+      margin-top: 0.5rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: none;
+      font-size: 1.2rem;
+      color: #fff;
+      background-color: #f04336;
+    }
+  }
+}
