@@ -2,10 +2,10 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCAZw3qgCOD2NEPSpXIhpky9eYH6vh0gGU",
-  authDomain: "vet-care-1b21e.firebaseapp.com",
-  databaseURL: "https://DATABASE_NAME.firebaseio.com",
-  projectId: "vet-care-1b21e",
+  apiKey: "AIzaSyCAZw3qgCOD2NEPSp",
+  authDomain: "vetfirebaseapp.com",
+  databaseURL: "https://DATABASE_NAME",
+  projectId: "vet-care",
   storageBucket: "PROJECT_ID.appspot.com",
   messagingSenderId: "SENDER_ID",
   appId: "APP_ID",
